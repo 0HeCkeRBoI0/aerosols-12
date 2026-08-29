@@ -1,0 +1,30 @@
+{
+  "persistent.user@example.com": {
+    "password": "0bbeae2a509a9790b8d1965b3d08afdb3fb5d34bab2d691989c9cc582d62cd33",
+    "photo": ""
+  },
+  "divyanshrajak888@gmail.com": {
+    "password": "d6d09e5202e3b93e129ea33ab6e198c2e8f71ecb744b1130dad8af1b1e3c81c9",
+    "photo": ""
+  },
+  "demo@aerosols.com": {
+    "password": "c55e494a7d83713e06598a09d878f90ef096ace4f31baf5dafb4d200a52e369a",
+    "photo": ""
+  },
+  "test-c73a77bb@example.com": {
+    "password": "724936cd9b665b34b178904d938970b9fffede7f6fcbae3e0f61b87170c06feb",
+    "photo": ""
+  },
+  "verify-499ced98@example.com": {
+    "password": "724936cd9b665b34b178904d938970b9fffede7f6fcbae3e0f61b87170c06feb",
+    "photo": ""
+  },
+  "final-47d5ff30@example.com": {
+    "password": "724936cd9b665b34b178904d938970b9fffede7f6fcbae3e0f61b87170c06feb",
+    "photo": ""
+  },
+  "clean-901833d2@example.com": {
+    "password": "724936cd9b665b34b178904d938970b9fffede7f6fcbae3e0f61b87170c06feb",
+    "photo": ""
+  }
+}
