@@ -1,0 +1,1606 @@
+{
+  "users": [
+    {
+      "email": "citizen@samadhan.demo",
+      "password": "32d434d82a945a198186a6a3326d9a16039bdc71ba2edd5423c99ae2dd1a0107",
+      "role": "CITIZEN",
+      "name": "Asha Kumari"
+    },
+    {
+      "email": "bitmesra@samadhan.demo",
+      "password": "32d434d82a945a198186a6a3326d9a16039bdc71ba2edd5423c99ae2dd1a0107",
+      "role": "ORGANIZATION",
+      "name": "BIT Mesra Desk",
+      "organizationId": "ORG-BIT"
+    },
+    {
+      "email": "admin@samadhan.demo",
+      "password": "32d434d82a945a198186a6a3326d9a16039bdc71ba2edd5423c99ae2dd1a0107",
+      "role": "GOVERNMENT",
+      "name": "Jharkhand Monitoring Desk"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "ORG-BIT",
+      "name": "BIT Mesra",
+      "type": "University",
+      "district": "Ranchi",
+      "domains": [
+        "Water Management",
+        "Environment",
+        "Urban Development",
+        "Energy"
+      ],
+      "expertise": [
+        "IoT",
+        "Civil Engineering",
+        "Water Resources",
+        "Data Analytics",
+        "Environmental Engineering"
+      ],
+      "capabilities": [
+        "Field pilots",
+        "Research",
+        "Prototyping"
+      ],
+      "demo": true
+    },
+    {
+      "id": "ORG-IITISM",
+      "name": "IIT (ISM) Dhanbad",
+      "type": "University",
+      "district": "Dhanbad",
+      "domains": [
+        "Energy",
+        "Environment",
+        "Urban Development"
+      ],
+      "expertise": [
+        "Mining",
+        "Environmental Engineering",
+        "Data Analytics",
+        "IoT"
+      ],
+      "capabilities": [
+        "Research",
+        "Technical review"
+      ],
+      "demo": true
+    },
+    {
+      "id": "ORG-BAU",
+      "name": "Birsa Agricultural University",
+      "type": "University",
+      "district": "Ranchi",
+      "domains": [
+        "Agriculture",
+        "Rural Livelihoods",
+        "Water Management"
+      ],
+      "expertise": [
+        "Agronomy",
+        "Irrigation",
+        "Rural Extension"
+      ],
+      "capabilities": [
+        "Field pilots",
+        "Community outreach"
+      ],
+      "demo": true
+    },
+    {
+      "id": "ORG-RMC",
+      "name": "Ranchi Municipal Corporation",
+      "type": "Government Department",
+      "district": "Ranchi",
+      "domains": [
+        "Urban Development",
+        "Water Management",
+        "Public Administration"
+      ],
+      "expertise": [
+        "Civic Works",
+        "Civil Engineering",
+        "Sanitation",
+        "Water Services"
+      ],
+      "capabilities": [
+        "Implementation",
+        "Public works"
+      ],
+      "demo": true
+    },
+    {
+      "id": "ORG-CUJ",
+      "name": "Central University of Jharkhand",
+      "type": "University",
+      "district": "Ranchi",
+      "domains": [
+        "Education",
+        "Accessibility",
+        "Public Administration"
+      ],
+      "expertise": [
+        "Social Research",
+        "Accessibility",
+        "Policy"
+      ],
+      "capabilities": [
+        "Research",
+        "Community outreach"
+      ],
+      "demo": true
+    },
+    {
+      "id": "ORG-HEALTH",
+      "name": "Jharkhand Health Innovation Cell",
+      "type": "Government Department",
+      "district": "Ranchi",
+      "domains": [
+        "Healthcare"
+      ],
+      "expertise": [
+        "Public Health",
+        "Health Systems",
+        "Data Analytics"
+      ],
+      "capabilities": [
+        "Implementation",
+        "Technical review"
+      ],
+      "demo": true
+    }
+  ],
+  "challenges": [
+    {
+      "id": "CH-DSA-010",
+      "title": "dsda",
+      "description": "dasdsa",
+      "district": "dsa",
+      "location": "3342342",
+      "category": "Public Administration",
+      "priority": "MEDIUM",
+      "affectedPeople": 566,
+      "evidence": [],
+      "status": "ANALYZED",
+      "createdAt": "2026-08-29T15:32:15+00:00",
+      "citizenEmail": "citizen@samadhan.demo",
+      "assignedOrganizationId": null,
+      "assignedAt": null,
+      "deadline": null,
+      "progress": 0,
+      "aiAnalysis": {
+        "domain": "Public Administration",
+        "subdomain": "Civic service delivery",
+        "summary": "Public Administration case requiring a traceable response: dsda.",
+        "priority": "MEDIUM",
+        "confidence": 86,
+        "requiredExpertise": [
+          "Public Administration",
+          "Community Outreach",
+          "Data Analytics"
+        ],
+        "keywords": [
+          "Dsda",
+          "Dasdsa",
+          "Other"
+        ],
+        "solutionAreas": [
+          "Service redesign",
+          "Local coordination",
+          "Monitoring"
+        ]
+      },
+      "updates": [],
+      "resolution": null,
+      "verification": null,
+      "events": [
+        {
+          "id": "EVT-7B7E09A4",
+          "challengeId": "CH-DSA-010",
+          "type": "CHALLENGE_CREATED",
+          "message": "Citizen report created.",
+          "actor": "Asha Kumari",
+          "createdAt": "2026-08-29T15:32:15+00:00"
+        },
+        {
+          "id": "EVT-025894ED",
+          "challengeId": "CH-DSA-010",
+          "type": "AI_ANALYZED",
+          "message": "AI analysis completed: Public Administration / MEDIUM.",
+          "actor": "System",
+          "createdAt": "2026-08-29T15:32:15+00:00"
+        },
+        {
+          "id": "EVT-D1004626",
+          "challengeId": "CH-DSA-010",
+          "type": "ORGANIZATION_MATCHED",
+          "message": "3 suitable demo organizations matched.",
+          "actor": "System",
+          "createdAt": "2026-08-29T15:32:15+00:00"
+        }
+      ],
+      "matches": [
+        {
+          "organizationId": "ORG-RMC",
+          "score": 80,
+          "matchedExpertise": [],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-CUJ",
+          "score": 80,
+          "matchedExpertise": [],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-BIT",
+          "score": 61,
+          "matchedExpertise": [
+            "Data Analytics"
+          ],
+          "why": "Relevant technical expertise overlaps with the analysis."
+        }
+      ]
+    },
+    {
+      "id": "CH-RAN-009",
+      "title": "electricity issues",
+      "description": "electricity issues",
+      "district": "ranchi",
+      "location": "patanahi",
+      "category": "Urban Development",
+      "priority": "MEDIUM",
+      "affectedPeople": 6000,
+      "evidence": [],
+      "status": "ASSIGNED",
+      "createdAt": "2026-08-29T14:54:22+00:00",
+      "citizenEmail": "citizen@samadhan.demo",
+      "assignedOrganizationId": "ORG-IITISM",
+      "assignedAt": "2026-08-29T14:55:15+00:00",
+      "deadline": "2026-09-05T14:55:15+00:00",
+      "progress": 0,
+      "aiAnalysis": {
+        "domain": "Urban Development",
+        "subdomain": "Civic infrastructure",
+        "summary": "Urban Development case requiring a traceable response: electricity issues.",
+        "priority": "MEDIUM",
+        "confidence": 86,
+        "requiredExpertise": [
+          "Civic Works",
+          "Civil Engineering",
+          "IoT"
+        ],
+        "keywords": [
+          "Electricity",
+          "Issues",
+          "Electricity",
+          "Issues",
+          "Urban",
+          "Development"
+        ],
+        "solutionAreas": [
+          "Infrastructure repair",
+          "Safety audit",
+          "Monitoring"
+        ]
+      },
+      "updates": [],
+      "resolution": null,
+      "verification": null,
+      "events": [
+        {
+          "id": "EVT-F571AA7B",
+          "challengeId": "CH-RAN-009",
+          "type": "CHALLENGE_CREATED",
+          "message": "Citizen report created.",
+          "actor": "Asha Kumari",
+          "createdAt": "2026-08-29T14:54:22+00:00"
+        },
+        {
+          "id": "EVT-5E5D146E",
+          "challengeId": "CH-RAN-009",
+          "type": "AI_ANALYZED",
+          "message": "AI analysis completed: Urban Development / MEDIUM.",
+          "actor": "System",
+          "createdAt": "2026-08-29T14:54:22+00:00"
+        },
+        {
+          "id": "EVT-8145CF89",
+          "challengeId": "CH-RAN-009",
+          "type": "ORGANIZATION_MATCHED",
+          "message": "3 suitable demo organizations matched.",
+          "actor": "System",
+          "createdAt": "2026-08-29T14:54:22+00:00"
+        },
+        {
+          "id": "EVT-E6F77FB2",
+          "challengeId": "CH-RAN-009",
+          "type": "ASSIGNED",
+          "message": "Assigned to IIT (ISM) Dhanbad; deadline 05 Sep 2026.",
+          "actor": "Jharkhand Monitoring Desk",
+          "createdAt": "2026-08-29T14:55:15+00:00"
+        }
+      ],
+      "matches": [
+        {
+          "organizationId": "ORG-BIT",
+          "score": 98,
+          "matchedExpertise": [
+            "IoT",
+            "Civil Engineering"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-RMC",
+          "score": 94,
+          "matchedExpertise": [
+            "Civic Works",
+            "Civil Engineering"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-IITISM",
+          "score": 87,
+          "matchedExpertise": [
+            "IoT"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        }
+      ]
+    },
+    {
+      "id": "CH-SDA-008",
+      "title": "sdsaadsa",
+      "description": "dasdsa",
+      "district": "sdadas",
+      "location": "sdas",
+      "category": "Education",
+      "priority": "MEDIUM",
+      "affectedPeople": 700000000,
+      "evidence": [],
+      "status": "ASSIGNED",
+      "createdAt": "2026-08-29T14:43:42+00:00",
+      "citizenEmail": "citizen@samadhan.demo",
+      "assignedOrganizationId": "ORG-CUJ",
+      "assignedAt": "2026-08-29T14:47:01+00:00",
+      "deadline": "2026-09-05T14:47:01+00:00",
+      "progress": 0,
+      "aiAnalysis": {
+        "domain": "Education",
+        "subdomain": "Education access",
+        "summary": "Education case requiring a traceable response: sdsaadsa.",
+        "priority": "MEDIUM",
+        "confidence": 86,
+        "requiredExpertise": [
+          "Education",
+          "Social Research",
+          "Accessibility"
+        ],
+        "keywords": [
+          "Sdsaadsa",
+          "Dasdsa",
+          "Education"
+        ],
+        "solutionAreas": [
+          "Access support",
+          "Learning resources",
+          "Community engagement"
+        ]
+      },
+      "updates": [],
+      "resolution": null,
+      "verification": null,
+      "events": [
+        {
+          "id": "EVT-E53A1502",
+          "challengeId": "CH-SDA-008",
+          "type": "CHALLENGE_CREATED",
+          "message": "Citizen report created.",
+          "actor": "Asha Kumari",
+          "createdAt": "2026-08-29T14:43:42+00:00"
+        },
+        {
+          "id": "EVT-53424B47",
+          "challengeId": "CH-SDA-008",
+          "type": "AI_ANALYZED",
+          "message": "AI analysis completed: Education / MEDIUM.",
+          "actor": "System",
+          "createdAt": "2026-08-29T14:43:42+00:00"
+        },
+        {
+          "id": "EVT-89DFC083",
+          "challengeId": "CH-SDA-008",
+          "type": "ORGANIZATION_MATCHED",
+          "message": "1 suitable demo organizations matched.",
+          "actor": "System",
+          "createdAt": "2026-08-29T14:43:42+00:00"
+        },
+        {
+          "id": "EVT-BF349D99",
+          "challengeId": "CH-SDA-008",
+          "type": "ASSIGNED",
+          "message": "Assigned to Central University of Jharkhand; deadline 05 Sep 2026.",
+          "actor": "Jharkhand Monitoring Desk",
+          "createdAt": "2026-08-29T14:47:01+00:00"
+        }
+      ],
+      "matches": [
+        {
+          "organizationId": "ORG-CUJ",
+          "score": 94,
+          "matchedExpertise": [
+            "Social Research",
+            "Accessibility"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        }
+      ]
+    },
+    {
+      "id": "CH-W-007",
+      "title": "w",
+      "description": "w",
+      "district": "w",
+      "location": "w",
+      "category": "Public Administration",
+      "priority": "MEDIUM",
+      "affectedPeople": 0,
+      "evidence": [],
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-08-29T12:46:54+00:00",
+      "citizenEmail": "citizen@samadhan.demo",
+      "assignedOrganizationId": "ORG-BIT",
+      "assignedAt": "2026-08-29T12:47:34+00:00",
+      "deadline": "2026-09-05T12:47:34+00:00",
+      "progress": 50,
+      "aiAnalysis": {
+        "domain": "Public Administration",
+        "subdomain": "Civic service delivery",
+        "summary": "Public Administration case requiring a traceable response: w.",
+        "priority": "MEDIUM",
+        "confidence": 86,
+        "requiredExpertise": [
+          "Public Administration",
+          "Community Outreach",
+          "Data Analytics"
+        ],
+        "keywords": [
+          "Other"
+        ],
+        "solutionAreas": [
+          "Service redesign",
+          "Local coordination",
+          "Monitoring"
+        ]
+      },
+      "updates": [
+        {
+          "id": "UPD-909943",
+          "progress": 25,
+          "text": "inspection",
+          "evidence": [],
+          "createdAt": "2026-08-29T14:48:38+00:00",
+          "actor": "BIT Mesra Desk"
+        },
+        {
+          "id": "UPD-56AD95",
+          "progress": 50,
+          "text": "gathering feedback of people",
+          "evidence": [],
+          "createdAt": "2026-08-29T14:49:11+00:00",
+          "actor": "BIT Mesra Desk"
+        }
+      ],
+      "resolution": null,
+      "verification": null,
+      "events": [
+        {
+          "id": "EVT-E5C559D8",
+          "challengeId": "CH-W-007",
+          "type": "CHALLENGE_CREATED",
+          "message": "Citizen report created.",
+          "actor": "Asha Kumari",
+          "createdAt": "2026-08-29T12:46:54+00:00"
+        },
+        {
+          "id": "EVT-218EAE2D",
+          "challengeId": "CH-W-007",
+          "type": "AI_ANALYZED",
+          "message": "AI analysis completed: Public Administration / MEDIUM.",
+          "actor": "System",
+          "createdAt": "2026-08-29T12:46:54+00:00"
+        },
+        {
+          "id": "EVT-3B6E29EC",
+          "challengeId": "CH-W-007",
+          "type": "ORGANIZATION_MATCHED",
+          "message": "3 suitable demo organizations matched.",
+          "actor": "System",
+          "createdAt": "2026-08-29T12:46:54+00:00"
+        },
+        {
+          "id": "EVT-03E80FEB",
+          "challengeId": "CH-W-007",
+          "type": "COMPLAINT_RAISED",
+          "message": "Complaint CMP-2026-0002 raised: No response.",
+          "actor": "Asha Kumari",
+          "createdAt": "2026-08-29T12:47:08+00:00"
+        },
+        {
+          "id": "EVT-463E4407",
+          "challengeId": "CH-W-007",
+          "type": "ASSIGNED",
+          "message": "Assigned to BIT Mesra; deadline 05 Sep 2026.",
+          "actor": "Jharkhand Monitoring Desk",
+          "createdAt": "2026-08-29T12:47:34+00:00"
+        },
+        {
+          "id": "EVT-67DCFA5D",
+          "challengeId": "CH-W-007",
+          "type": "ACCEPTED",
+          "message": "Organization accepted responsibility.",
+          "actor": "BIT Mesra Desk",
+          "createdAt": "2026-08-29T14:48:04+00:00"
+        },
+        {
+          "id": "EVT-259A7ED7",
+          "challengeId": "CH-W-007",
+          "type": "WORK_STARTED",
+          "message": "Work started.",
+          "actor": "BIT Mesra Desk",
+          "createdAt": "2026-08-29T14:48:10+00:00"
+        },
+        {
+          "id": "EVT-37A2E0C4",
+          "challengeId": "CH-W-007",
+          "type": "PROGRESS_UPDATED",
+          "message": "Progress updated to 25%: inspection",
+          "actor": "BIT Mesra Desk",
+          "createdAt": "2026-08-29T14:48:38+00:00"
+        },
+        {
+          "id": "EVT-B05C11E1",
+          "challengeId": "CH-W-007",
+          "type": "PROGRESS_UPDATED",
+          "message": "Progress updated to 50%: gathering feedback of people",
+          "actor": "BIT Mesra Desk",
+          "createdAt": "2026-08-29T14:49:11+00:00"
+        }
+      ],
+      "matches": [
+        {
+          "organizationId": "ORG-RMC",
+          "score": 80,
+          "matchedExpertise": [],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-CUJ",
+          "score": 80,
+          "matchedExpertise": [],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-BIT",
+          "score": 61,
+          "matchedExpertise": [
+            "Data Analytics"
+          ],
+          "why": "Relevant technical expertise overlaps with the analysis."
+        }
+      ]
+    },
+    {
+      "id": "CH-GIR-001",
+      "title": "Irregular Water Supply and Tank Overflow",
+      "description": "Repeated tank overflow and irregular water supply affect households in Barganda ward.",
+      "district": "Giridih",
+      "location": "Barganda ward, Giridih",
+      "category": "Water Management",
+      "priority": "HIGH",
+      "affectedPeople": 350,
+      "evidence": [],
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-08-17T12:44:58+00:00",
+      "citizenEmail": "citizen@samadhan.demo",
+      "assignedOrganizationId": "ORG-BIT",
+      "assignedAt": "2026-08-19T12:44:58+00:00",
+      "deadline": "2026-09-01T12:44:58+00:00",
+      "progress": 100,
+      "aiAnalysis": {
+        "domain": "Water Management",
+        "subdomain": "Water infrastructure and monitoring",
+        "summary": "Water Management case requiring a traceable response: Irregular Water Supply and Tank Overflow.",
+        "priority": "HIGH",
+        "confidence": 92,
+        "requiredExpertise": [
+          "IoT",
+          "Civil Engineering",
+          "Water Resources",
+          "Data Analytics"
+        ],
+        "keywords": [
+          "Irregular",
+          "Water",
+          "Supply",
+          "Tank",
+          "Overflow",
+          "Irregular"
+        ],
+        "solutionAreas": [
+          "Water-level monitoring",
+          "Leak detection",
+          "Community maintenance"
+        ]
+      },
+      "updates": [
+        {
+          "id": "UPD-GIR-01",
+          "progress": 65,
+          "text": "Prototype monitoring system installed and field testing started.",
+          "evidence": [],
+          "createdAt": "2026-08-28T12:44:58+00:00",
+          "actor": "BIT Mesra"
+        },
+        {
+          "id": "UPD-4C799D",
+          "progress": 65,
+          "text": "w",
+          "evidence": [],
+          "createdAt": "2026-08-29T12:51:25+00:00",
+          "actor": "BIT Mesra Desk"
+        },
+        {
+          "id": "UPD-ECBB0E",
+          "progress": 100,
+          "text": "done",
+          "evidence": [],
+          "createdAt": "2026-08-29T12:51:31+00:00",
+          "actor": "BIT Mesra Desk"
+        }
+      ],
+      "resolution": null,
+      "verification": null,
+      "matches": [
+        {
+          "organizationId": "ORG-BIT",
+          "score": 98,
+          "matchedExpertise": [
+            "IoT",
+            "Water Resources",
+            "Civil Engineering",
+            "Data Analytics"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-RMC",
+          "score": 87,
+          "matchedExpertise": [
+            "Civil Engineering"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-BAU",
+          "score": 80,
+          "matchedExpertise": [],
+          "why": "Strong domain and expertise overlap with the analysis."
+        }
+      ],
+      "events": [
+        {
+          "id": "EVT-F490163B",
+          "challengeId": "CH-GIR-001",
+          "type": "CHALLENGE_CREATED",
+          "message": "Citizen report created.",
+          "actor": "Citizen",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-9EE7642E",
+          "challengeId": "CH-GIR-001",
+          "type": "AI_ANALYZED",
+          "message": "AI analysis completed: Water Management / HIGH.",
+          "actor": "System",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-EA5DA121",
+          "challengeId": "CH-GIR-001",
+          "type": "ASSIGNED",
+          "message": "Assigned to ORG-BIT; deadline 01 Sep 2026.",
+          "actor": "Government",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-2D34FFCF",
+          "challengeId": "CH-GIR-001",
+          "type": "ACCEPTED",
+          "message": "BIT Mesra accepted responsibility.",
+          "actor": "BIT Mesra",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-58112858",
+          "challengeId": "CH-GIR-001",
+          "type": "WORK_STARTED",
+          "message": "Field work started.",
+          "actor": "BIT Mesra",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-9B99D60B",
+          "challengeId": "CH-GIR-001",
+          "type": "PROGRESS_UPDATED",
+          "message": "Progress updated to 65%: prototype installed.",
+          "actor": "BIT Mesra",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-F44D0AB3",
+          "challengeId": "CH-GIR-001",
+          "type": "PROGRESS_UPDATED",
+          "message": "Progress updated to 65%: w",
+          "actor": "BIT Mesra Desk",
+          "createdAt": "2026-08-29T12:51:25+00:00"
+        },
+        {
+          "id": "EVT-3A02EE56",
+          "challengeId": "CH-GIR-001",
+          "type": "PROGRESS_UPDATED",
+          "message": "Progress updated to 100%: done",
+          "actor": "BIT Mesra Desk",
+          "createdAt": "2026-08-29T12:51:31+00:00"
+        },
+        {
+          "id": "EVT-FD4CABA5",
+          "challengeId": "CH-GIR-001",
+          "type": "COMPLAINT_RAISED",
+          "message": "Complaint CMP-2026-0003 raised: No response.",
+          "actor": "Asha Kumari",
+          "createdAt": "2026-08-29T14:44:05+00:00"
+        },
+        {
+          "id": "EVT-13D25FDC",
+          "challengeId": "CH-GIR-001",
+          "type": "COMPLAINT_RAISED",
+          "message": "Complaint CMP-2026-0004 raised: Work delayed.",
+          "actor": "Asha Kumari",
+          "createdAt": "2026-08-29T14:44:38+00:00"
+        }
+      ]
+    },
+    {
+      "id": "CH-DHN-002",
+      "title": "Unsafe streetlight outage near bus stand",
+      "description": "Unsafe streetlight outage near bus stand",
+      "district": "Dhanbad",
+      "location": "Bank More bus stand",
+      "category": "Urban Development",
+      "priority": "HIGH",
+      "affectedPeople": 180,
+      "evidence": [],
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-08-17T12:44:58+00:00",
+      "citizenEmail": "citizen@samadhan.demo",
+      "assignedOrganizationId": "ORG-RMC",
+      "assignedAt": "2026-08-19T12:44:58+00:00",
+      "deadline": "2026-08-25T12:44:58+00:00",
+      "progress": 30,
+      "aiAnalysis": {
+        "domain": "Urban Development",
+        "subdomain": "Civic infrastructure",
+        "summary": "Urban Development case requiring a traceable response: Unsafe streetlight outage near bus stand.",
+        "priority": "HIGH",
+        "confidence": 86,
+        "requiredExpertise": [
+          "Civic Works",
+          "Civil Engineering",
+          "IoT"
+        ],
+        "keywords": [
+          "Unsafe",
+          "Streetlight",
+          "Outage",
+          "Near",
+          "Stand",
+          "Unsafe"
+        ],
+        "solutionAreas": [
+          "Infrastructure repair",
+          "Safety audit",
+          "Monitoring"
+        ]
+      },
+      "updates": [],
+      "resolution": null,
+      "verification": null,
+      "matches": [
+        {
+          "organizationId": "ORG-BIT",
+          "score": 98,
+          "matchedExpertise": [
+            "IoT",
+            "Civil Engineering"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-RMC",
+          "score": 94,
+          "matchedExpertise": [
+            "Civic Works",
+            "Civil Engineering"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-IITISM",
+          "score": 87,
+          "matchedExpertise": [
+            "IoT"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        }
+      ],
+      "events": [
+        {
+          "id": "EVT-30E93EF3",
+          "challengeId": "CH-DHN-002",
+          "type": "CHALLENGE_CREATED",
+          "message": "Citizen report created.",
+          "actor": "Citizen",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-7EC580A3",
+          "challengeId": "CH-DHN-002",
+          "type": "AI_ANALYZED",
+          "message": "AI analysis completed: Urban Development / HIGH.",
+          "actor": "System",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-B0D05860",
+          "challengeId": "CH-DHN-002",
+          "type": "ASSIGNED",
+          "message": "Assigned to ORG-RMC; deadline 25 Aug 2026.",
+          "actor": "Government",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-62FE5900",
+          "challengeId": "CH-DHN-002",
+          "type": "OVERDUE",
+          "message": "Deadline passed; government attention required.",
+          "actor": "System",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "CH-RAN-003",
+      "title": "Community drain remains blocked after repair",
+      "description": "Community drain remains blocked after repair",
+      "district": "Ranchi",
+      "location": "Doranda",
+      "category": "Environment",
+      "priority": "MEDIUM",
+      "affectedPeople": 120,
+      "evidence": [],
+      "status": "DISPUTED",
+      "createdAt": "2026-08-17T12:44:58+00:00",
+      "citizenEmail": "citizen@samadhan.demo",
+      "assignedOrganizationId": "ORG-RMC",
+      "assignedAt": "2026-08-19T12:44:58+00:00",
+      "deadline": "2026-08-28T12:44:58+00:00",
+      "progress": 90,
+      "aiAnalysis": {
+        "domain": "Environment",
+        "subdomain": "Water infrastructure and monitoring",
+        "summary": "Environment case requiring a traceable response: Community drain remains blocked after repair.",
+        "priority": "MEDIUM",
+        "confidence": 86,
+        "requiredExpertise": [
+          "IoT",
+          "Civil Engineering",
+          "Water Resources",
+          "Data Analytics"
+        ],
+        "keywords": [
+          "Community",
+          "Drain",
+          "Remains",
+          "Blocked",
+          "After",
+          "Repair"
+        ],
+        "solutionAreas": [
+          "Water-level monitoring",
+          "Leak detection",
+          "Community maintenance"
+        ]
+      },
+      "updates": [],
+      "resolution": {
+        "summary": "Drain cleaning completed.",
+        "whatWasDone": "Contractor cleared the visible blockage.",
+        "evidence": [],
+        "peopleBenefited": 120,
+        "resolutionDate": "2026-08-27T12:44:58+00:00",
+        "submittedAt": "2026-08-27T12:44:58+00:00",
+        "organization": "Ranchi Municipal Corporation"
+      },
+      "verification": {
+        "status": "REJECTED",
+        "comment": "Water still backs up after rainfall.",
+        "at": "2026-08-28T12:44:58+00:00"
+      },
+      "matches": [
+        {
+          "organizationId": "ORG-BIT",
+          "score": 98,
+          "matchedExpertise": [
+            "IoT",
+            "Water Resources",
+            "Civil Engineering",
+            "Data Analytics"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-IITISM",
+          "score": 94,
+          "matchedExpertise": [
+            "IoT",
+            "Data Analytics"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-RMC",
+          "score": 57,
+          "matchedExpertise": [
+            "Civil Engineering"
+          ],
+          "why": "Relevant technical expertise overlaps with the analysis."
+        }
+      ],
+      "events": [
+        {
+          "id": "EVT-C1EED714",
+          "challengeId": "CH-RAN-003",
+          "type": "CHALLENGE_CREATED",
+          "message": "Citizen report created.",
+          "actor": "Citizen",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-E24F23C6",
+          "challengeId": "CH-RAN-003",
+          "type": "AI_ANALYZED",
+          "message": "AI analysis completed: Environment / MEDIUM.",
+          "actor": "System",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-C7B78544",
+          "challengeId": "CH-RAN-003",
+          "type": "ASSIGNED",
+          "message": "Assigned to ORG-RMC; deadline 28 Aug 2026.",
+          "actor": "Government",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-A1E21115",
+          "challengeId": "CH-RAN-003",
+          "type": "RESOLUTION_SUBMITTED",
+          "message": "Resolution submitted for citizen verification.",
+          "actor": "Ranchi Municipal Corporation",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-43B0E92D",
+          "challengeId": "CH-RAN-003",
+          "type": "DISPUTED",
+          "message": "Citizen rejected the submitted resolution.",
+          "actor": "Citizen",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "CH-RAM-004",
+      "title": "Crop irrigation access for small farmers",
+      "description": "Crop irrigation access for small farmers",
+      "district": "Ramgarh",
+      "location": "Gola block",
+      "category": "Agriculture",
+      "priority": "MEDIUM",
+      "affectedPeople": 75,
+      "evidence": [],
+      "status": "ACCEPTED",
+      "createdAt": "2026-08-17T12:44:58+00:00",
+      "citizenEmail": "citizen@samadhan.demo",
+      "assignedOrganizationId": "ORG-BAU",
+      "assignedAt": "2026-08-19T12:44:58+00:00",
+      "deadline": "2026-09-04T12:44:58+00:00",
+      "progress": 20,
+      "aiAnalysis": {
+        "domain": "Agriculture",
+        "subdomain": "Water infrastructure and monitoring",
+        "summary": "Agriculture case requiring a traceable response: Crop irrigation access for small farmers.",
+        "priority": "MEDIUM",
+        "confidence": 86,
+        "requiredExpertise": [
+          "IoT",
+          "Civil Engineering",
+          "Water Resources",
+          "Data Analytics"
+        ],
+        "keywords": [
+          "Crop",
+          "Irrigation",
+          "Access",
+          "Small",
+          "Farmers",
+          "Crop"
+        ],
+        "solutionAreas": [
+          "Water-level monitoring",
+          "Leak detection",
+          "Community maintenance"
+        ]
+      },
+      "updates": [],
+      "resolution": null,
+      "verification": null,
+      "matches": [
+        {
+          "organizationId": "ORG-BIT",
+          "score": 82,
+          "matchedExpertise": [
+            "IoT",
+            "Water Resources",
+            "Civil Engineering",
+            "Data Analytics"
+          ],
+          "why": "Relevant technical expertise overlaps with the analysis."
+        },
+        {
+          "organizationId": "ORG-BAU",
+          "score": 80,
+          "matchedExpertise": [],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-IITISM",
+          "score": 64,
+          "matchedExpertise": [
+            "IoT",
+            "Data Analytics"
+          ],
+          "why": "Relevant technical expertise overlaps with the analysis."
+        }
+      ],
+      "events": [
+        {
+          "id": "EVT-CC14EC69",
+          "challengeId": "CH-RAM-004",
+          "type": "CHALLENGE_CREATED",
+          "message": "Citizen report created.",
+          "actor": "Citizen",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-7D59EA2C",
+          "challengeId": "CH-RAM-004",
+          "type": "AI_ANALYZED",
+          "message": "AI analysis completed: Agriculture / MEDIUM.",
+          "actor": "System",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-6F8A8487",
+          "challengeId": "CH-RAM-004",
+          "type": "ASSIGNED",
+          "message": "Assigned to ORG-BAU; deadline 04 Sep 2026.",
+          "actor": "Government",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-D369D499",
+          "challengeId": "CH-RAM-004",
+          "type": "ACCEPTED",
+          "message": "Birsa Agricultural University accepted responsibility.",
+          "actor": "Birsa Agricultural University",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "CH-KHU-005",
+      "title": "Accessible ramp needed at community health centre",
+      "description": "Accessible ramp needed at community health centre",
+      "district": "Khunti",
+      "location": "Khunti Sadar",
+      "category": "Accessibility",
+      "priority": "MEDIUM",
+      "affectedPeople": 90,
+      "evidence": [],
+      "status": "ASSIGNED",
+      "createdAt": "2026-08-17T12:44:58+00:00",
+      "citizenEmail": "citizen@samadhan.demo",
+      "assignedOrganizationId": "ORG-CUJ",
+      "assignedAt": "2026-08-29T12:47:24+00:00",
+      "deadline": "2026-09-05T12:47:24+00:00",
+      "progress": 0,
+      "aiAnalysis": {
+        "domain": "Accessibility",
+        "subdomain": "Community health access",
+        "summary": "Accessibility case requiring a traceable response: Accessible ramp needed at community health centre.",
+        "priority": "MEDIUM",
+        "confidence": 86,
+        "requiredExpertise": [
+          "Public Health",
+          "Health Systems",
+          "Data Analytics"
+        ],
+        "keywords": [
+          "Accessible",
+          "Ramp",
+          "Needed",
+          "Community",
+          "Health",
+          "Centre"
+        ],
+        "solutionAreas": [
+          "Service access",
+          "Awareness",
+          "Monitoring"
+        ]
+      },
+      "updates": [],
+      "resolution": null,
+      "verification": null,
+      "matches": [
+        {
+          "organizationId": "ORG-CUJ",
+          "score": 80,
+          "matchedExpertise": [],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-HEALTH",
+          "score": 71,
+          "matchedExpertise": [
+            "Public Health",
+            "Data Analytics",
+            "Health Systems"
+          ],
+          "why": "Relevant technical expertise overlaps with the analysis."
+        },
+        {
+          "organizationId": "ORG-BIT",
+          "score": 61,
+          "matchedExpertise": [
+            "Data Analytics"
+          ],
+          "why": "Relevant technical expertise overlaps with the analysis."
+        }
+      ],
+      "events": [
+        {
+          "id": "EVT-4AEE3527",
+          "challengeId": "CH-KHU-005",
+          "type": "CHALLENGE_CREATED",
+          "message": "Citizen report created.",
+          "actor": "Citizen",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-70696617",
+          "challengeId": "CH-KHU-005",
+          "type": "AI_ANALYZED",
+          "message": "AI analysis completed: Accessibility / MEDIUM.",
+          "actor": "System",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-F64D985F",
+          "challengeId": "CH-KHU-005",
+          "type": "ASSIGNED",
+          "message": "Assigned to Central University of Jharkhand; deadline 05 Sep 2026.",
+          "actor": "Jharkhand Monitoring Desk",
+          "createdAt": "2026-08-29T12:47:24+00:00"
+        }
+      ]
+    },
+    {
+      "id": "CH-RES-006",
+      "title": "Solar lighting restored at girls hostel",
+      "description": "Solar lighting restored at girls hostel",
+      "district": "East Singhbhum",
+      "location": "Jamshedpur",
+      "category": "Energy",
+      "priority": "LOW",
+      "affectedPeople": 220,
+      "evidence": [],
+      "status": "RESOLVED",
+      "createdAt": "2026-08-17T12:44:58+00:00",
+      "citizenEmail": "citizen@samadhan.demo",
+      "assignedOrganizationId": "ORG-IITISM",
+      "assignedAt": "2026-08-19T12:44:58+00:00",
+      "deadline": "2026-08-29T12:44:58+00:00",
+      "progress": 100,
+      "aiAnalysis": {
+        "domain": "Energy",
+        "subdomain": "Civic infrastructure",
+        "summary": "Energy case requiring a traceable response: Solar lighting restored at girls hostel.",
+        "priority": "LOW",
+        "confidence": 86,
+        "requiredExpertise": [
+          "Civic Works",
+          "Civil Engineering",
+          "IoT"
+        ],
+        "keywords": [
+          "Solar",
+          "Lighting",
+          "Restored",
+          "Girls",
+          "Hostel",
+          "Solar"
+        ],
+        "solutionAreas": [
+          "Infrastructure repair",
+          "Safety audit",
+          "Monitoring"
+        ]
+      },
+      "updates": [],
+      "resolution": {
+        "summary": "Solar lighting and maintenance alerts installed.",
+        "whatWasDone": "Repaired solar units and installed maintenance alerts.",
+        "evidence": [],
+        "peopleBenefited": 220,
+        "resolutionDate": "2026-08-24T12:44:58+00:00",
+        "organization": "Jharkhand Energy Innovation Cell"
+      },
+      "verification": {
+        "status": "VERIFIED",
+        "comment": "Lighting is working.",
+        "at": "2026-08-24T12:44:58+00:00"
+      },
+      "matches": [
+        {
+          "organizationId": "ORG-BIT",
+          "score": 98,
+          "matchedExpertise": [
+            "IoT",
+            "Civil Engineering"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-IITISM",
+          "score": 87,
+          "matchedExpertise": [
+            "IoT"
+          ],
+          "why": "Strong domain and expertise overlap with the analysis."
+        },
+        {
+          "organizationId": "ORG-RMC",
+          "score": 64,
+          "matchedExpertise": [
+            "Civic Works",
+            "Civil Engineering"
+          ],
+          "why": "Relevant technical expertise overlaps with the analysis."
+        }
+      ],
+      "events": [
+        {
+          "id": "EVT-283C2B24",
+          "challengeId": "CH-RES-006",
+          "type": "CHALLENGE_CREATED",
+          "message": "Citizen report created.",
+          "actor": "Citizen",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-C76E569D",
+          "challengeId": "CH-RES-006",
+          "type": "AI_ANALYZED",
+          "message": "AI analysis completed: Energy / LOW.",
+          "actor": "System",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-AD2621AF",
+          "challengeId": "CH-RES-006",
+          "type": "ASSIGNED",
+          "message": "Assigned to ORG-IITISM; deadline 29 Aug 2026.",
+          "actor": "Government",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-EB871859",
+          "challengeId": "CH-RES-006",
+          "type": "VERIFIED",
+          "message": "Citizen confirmed the resolution.",
+          "actor": "Citizen",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        },
+        {
+          "id": "EVT-68206828",
+          "challengeId": "CH-RES-006",
+          "type": "CERTIFICATE_ISSUED",
+          "message": "Verified certificate CERT-JH-2026-0001 issued.",
+          "actor": "System",
+          "createdAt": "2026-08-29T12:44:58+00:00"
+        }
+      ]
+    }
+  ],
+  "complaints": [
+    {
+      "id": "CMP-2026-0001",
+      "challengeId": "CH-RAN-003",
+      "type": "Problem still exists",
+      "description": "Drain remains blocked after the reported repair.",
+      "evidence": [],
+      "createdAt": "2026-08-28T12:44:58+00:00",
+      "status": "ESCALATED"
+    },
+    {
+      "id": "CMP-2026-0002",
+      "challengeId": "CH-W-007",
+      "type": "No response",
+      "description": "no improvement",
+      "evidence": [],
+      "createdAt": "2026-08-29T12:47:08+00:00",
+      "status": "OPEN"
+    },
+    {
+      "id": "CMP-2026-0003",
+      "challengeId": "CH-GIR-001",
+      "type": "No response",
+      "description": "not working",
+      "evidence": [],
+      "createdAt": "2026-08-29T14:44:05+00:00",
+      "status": "OPEN"
+    },
+    {
+      "id": "CMP-2026-0004",
+      "challengeId": "CH-GIR-001",
+      "type": "Work delayed",
+      "description": "idk",
+      "evidence": [],
+      "createdAt": "2026-08-29T14:44:38+00:00",
+      "status": "OPEN"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOT-48598C",
+      "recipient": "citizen@samadhan.demo",
+      "message": "CH-W-007 received and analyzed.",
+      "challengeId": "CH-W-007",
+      "createdAt": "2026-08-29T12:46:54+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-821B49",
+      "recipient": "GOVERNMENT",
+      "message": "New MEDIUM challenge CH-W-007 requires review.",
+      "challengeId": "CH-W-007",
+      "createdAt": "2026-08-29T12:46:54+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-E4C31D",
+      "recipient": "GOVERNMENT",
+      "message": "New complaint CMP-2026-0002 for CH-W-007.",
+      "challengeId": "CH-W-007",
+      "createdAt": "2026-08-29T12:47:08+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-804EDF",
+      "recipient": "ORGANIZATION",
+      "message": "New challenge CH-KHU-005 assigned to Central University of Jharkhand.",
+      "challengeId": "CH-KHU-005",
+      "createdAt": "2026-08-29T12:47:24+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-6CD81A",
+      "recipient": "citizen@samadhan.demo",
+      "message": "CH-KHU-005 assigned to Central University of Jharkhand.",
+      "challengeId": "CH-KHU-005",
+      "createdAt": "2026-08-29T12:47:24+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-7180C5",
+      "recipient": "ORGANIZATION",
+      "message": "New challenge CH-W-007 assigned to BIT Mesra.",
+      "challengeId": "CH-W-007",
+      "createdAt": "2026-08-29T12:47:34+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-B040B3",
+      "recipient": "citizen@samadhan.demo",
+      "message": "CH-W-007 assigned to BIT Mesra.",
+      "challengeId": "CH-W-007",
+      "createdAt": "2026-08-29T12:47:34+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-DB4420",
+      "recipient": "citizen@samadhan.demo",
+      "message": "New progress update on CH-GIR-001: 65%.",
+      "challengeId": "CH-GIR-001",
+      "createdAt": "2026-08-29T12:51:25+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-8844BB",
+      "recipient": "citizen@samadhan.demo",
+      "message": "New progress update on CH-GIR-001: 100%.",
+      "challengeId": "CH-GIR-001",
+      "createdAt": "2026-08-29T12:51:31+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-CA84F3",
+      "recipient": "citizen@samadhan.demo",
+      "message": "CH-SDA-008 received and analyzed.",
+      "challengeId": "CH-SDA-008",
+      "createdAt": "2026-08-29T14:43:42+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-4D5935",
+      "recipient": "GOVERNMENT",
+      "message": "New MEDIUM challenge CH-SDA-008 requires review.",
+      "challengeId": "CH-SDA-008",
+      "createdAt": "2026-08-29T14:43:42+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-20F7A9",
+      "recipient": "GOVERNMENT",
+      "message": "New complaint CMP-2026-0003 for CH-GIR-001.",
+      "challengeId": "CH-GIR-001",
+      "createdAt": "2026-08-29T14:44:05+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-8F7998",
+      "recipient": "GOVERNMENT",
+      "message": "New complaint CMP-2026-0004 for CH-GIR-001.",
+      "challengeId": "CH-GIR-001",
+      "createdAt": "2026-08-29T14:44:38+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-21FB90",
+      "recipient": "ORGANIZATION",
+      "message": "New challenge CH-SDA-008 assigned to Central University of Jharkhand.",
+      "challengeId": "CH-SDA-008",
+      "createdAt": "2026-08-29T14:47:01+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-84B419",
+      "recipient": "citizen@samadhan.demo",
+      "message": "CH-SDA-008 assigned to Central University of Jharkhand.",
+      "challengeId": "CH-SDA-008",
+      "createdAt": "2026-08-29T14:47:01+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-65260C",
+      "recipient": "citizen@samadhan.demo",
+      "message": "BIT Mesra accepted CH-W-007.",
+      "challengeId": "CH-W-007",
+      "createdAt": "2026-08-29T14:48:04+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-34B531",
+      "recipient": "citizen@samadhan.demo",
+      "message": "Work started on CH-W-007.",
+      "challengeId": "CH-W-007",
+      "createdAt": "2026-08-29T14:48:10+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-111165",
+      "recipient": "citizen@samadhan.demo",
+      "message": "New progress update on CH-W-007: 25%.",
+      "challengeId": "CH-W-007",
+      "createdAt": "2026-08-29T14:48:38+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-47BA35",
+      "recipient": "citizen@samadhan.demo",
+      "message": "New progress update on CH-W-007: 50%.",
+      "challengeId": "CH-W-007",
+      "createdAt": "2026-08-29T14:49:11+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-7BBB43",
+      "recipient": "citizen@samadhan.demo",
+      "message": "CH-RAN-009 received and analyzed.",
+      "challengeId": "CH-RAN-009",
+      "createdAt": "2026-08-29T14:54:22+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-D55D51",
+      "recipient": "GOVERNMENT",
+      "message": "New MEDIUM challenge CH-RAN-009 requires review.",
+      "challengeId": "CH-RAN-009",
+      "createdAt": "2026-08-29T14:54:22+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-5DAC8D",
+      "recipient": "ORGANIZATION",
+      "message": "New challenge CH-RAN-009 assigned to IIT (ISM) Dhanbad.",
+      "challengeId": "CH-RAN-009",
+      "createdAt": "2026-08-29T14:55:15+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-83A883",
+      "recipient": "citizen@samadhan.demo",
+      "message": "CH-RAN-009 assigned to IIT (ISM) Dhanbad.",
+      "challengeId": "CH-RAN-009",
+      "createdAt": "2026-08-29T14:55:15+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-7637F4",
+      "recipient": "citizen@samadhan.demo",
+      "message": "CH-DSA-010 received and analyzed.",
+      "challengeId": "CH-DSA-010",
+      "createdAt": "2026-08-29T15:32:15+00:00",
+      "read": false
+    },
+    {
+      "id": "NOT-D0E8D0",
+      "recipient": "GOVERNMENT",
+      "message": "New MEDIUM challenge CH-DSA-010 requires review.",
+      "challengeId": "CH-DSA-010",
+      "createdAt": "2026-08-29T15:32:15+00:00",
+      "read": false
+    }
+  ],
+  "certificates": [
+    {
+      "id": "CERT-JH-2026-0001",
+      "challengeId": "CH-RES-006",
+      "challengeTitle": "Solar lighting restored at girls hostel",
+      "location": "Jamshedpur, East Singhbhum",
+      "organization": "Jharkhand Energy Innovation Cell",
+      "resolution": "Solar lighting and maintenance alerts installed.",
+      "peopleBenefited": 220,
+      "resolutionDate": "2026-08-24T12:44:58+00:00",
+      "issuedAt": "2026-08-24T12:44:58+00:00",
+      "verified": true
+    }
+  ]
+}
